@@ -1,6 +1,6 @@
 ﻿
 # Add source to this project's executable.
-add_executable (editia-beta "main.cpp")
+add_executable ("editia-beta" "main.cpp" "log.cpp")
 
 # Config
 set_property(TARGET "editia-beta" PROPERTY CXX_STANDARD 20)
